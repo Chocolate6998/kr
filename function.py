@@ -33,5 +33,3 @@ def last_operations():
         print(f"""{i['date'][:10]} {i['description']}
 {from_number(i.get('from'))} Счет {to_number(i["to"])}
 {i["operationAmount"]["amount"]} {i["operationAmount"]["currency"]["name"]}\n""")
-
-last_operations()
